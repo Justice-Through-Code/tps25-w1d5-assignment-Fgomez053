@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 import builtins
-import dog_ap i  # This is your main student file (rename if needed)
+import dog_api  # This is your main student file (rename if needed)
 
 class TestDogAPIBrowser(unittest.TestCase):
 

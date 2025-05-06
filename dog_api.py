@@ -50,7 +50,7 @@ def get_random_image(breed):
     # TODO: Make a request to https://dog.ceo/api/breed/{breed}/images/random
     # TODO: Return the image URL or handle errors
     try:
-        response = request.get(f"https://dog.ceo/api/breed/{breed}/images/random")
+        response = requests.get(f"https://dog.ceo/api/breed/{breed}/images/random")
         response.raise_for_status()
         data = response.json()
         return data["message"]
